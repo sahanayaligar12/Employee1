@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form id="registrationForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="fatherName">Father's Name:</label><br>
+        <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+        <label for="motherName">Mother's Name:</label><br>
+        <input type="text" id="motherName" name="motherName" required><br><br>
+
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="text" id="mobile" name="mobile" maxlength="10" required /><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" required></textarea><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+
+        <label>Qualification:</label><br>
+        <input type="checkbox" id="highSchool" name="qualification" value="High School">
+        <label for="highSchool">High School</label><br>
+        <input type="checkbox" id="bachelor" name="qualification" value="Bachelor's">
+        <label for="bachelor">Bachelor's</label><br>
+        <input type="checkbox" id="master" name="qualification" value="Master's">
+        <label for="master">Master's</label><br><br>
+
+        <button type="button" onclick="submitForm()">Login</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            alert("Form submitted successfully!");
+        }
+    </script>
+</body>
+</html>

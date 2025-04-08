@@ -1,0 +1,27 @@
+/* Basic Page Style */
+body {
+    background-color: #FFFACD;
+    font-family: 'Tahoma', sans-serif;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    color: #333333;
+}
+
+/* Styling headers */
+h1 {
+    color: #FF4500;
+    font-size: 2.5em;
+    border-bottom: 2px solid #FF4500;
+    margin-bottom: 20px;
+}
+
+/* Styling paragraphs */
+p {
+    font-size: 1em;
+    color: #696969;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
